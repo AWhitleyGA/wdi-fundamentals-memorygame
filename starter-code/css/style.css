@@ -1,0 +1,53 @@
+nav {
+	background: #808080;
+}
+header {
+	text-align: center;
+	width: 50%;
+}
+footer {
+	background: #808080;
+	text-align: center;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+nav a {
+	background: #ffbf00;
+	color: #ffffff;
+	padding: 35px;
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+nav a:hover {
+	background: #ee5f3c;
+}
+.board {
+	height: 80%;
+	width:50%;
+	display: inline-block;
+}
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	background: rgb(255, 255, 0);
+	border-radius: 10px;
+	float: left;
+	margin: 8%;
+}
+h1 {
+	color: rgb(2, 132, 130);
+}
+h2 {
+	color: #ffd700;
+}
+.name {
+	color: #ff0000;
+}
