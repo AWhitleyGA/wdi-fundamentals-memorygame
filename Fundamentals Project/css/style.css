@@ -51,3 +51,9 @@ h2 {
 .name {
 	color: #ff0000;
 }
+button {
+	background: #ffbf00;
+	color: #ffffff;
+	display: block;
+	margin: auto;
+}
