@@ -42,6 +42,9 @@ nav a:hover {
 	float: left;
 	margin: 8%;
 }
+.card img {
+	width: inherit;
+}
 h1 {
 	color: rgb(2, 132, 130);
 }
