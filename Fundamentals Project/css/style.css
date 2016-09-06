@@ -1,12 +1,19 @@
+body {
+	font: 18px Garamond;
+	background: url("../images/GreenFelt.jpg");
+	background-size: cover;
+	background-position: bottom center;
+}
 nav {
-	background: #808080;
+
 }
 header {
 	text-align: center;
-	width: 50%;
+	width: 100%;
 }
 footer {
-	background: #808080;
+	background: #000000;
+	color: #FFFFFF;
 	text-align: center;
 }
 .clearfix:after {
@@ -18,45 +25,55 @@ footer {
 	font-size: 0;
 }
 nav a {
-	background: #ffbf00;
 	color: #ffffff;
-	padding: 35px;
+	padding: 20px;
 	display: block;
 	float: left;
 	text-decoration: none;
 }
 nav a:hover {
-	background: #ee5f3c;
+text-decoration: underline;
 }
 .board {
-	height: 80%;
-	width:50%;
-	display: inline-block;
+	height: 600px;
+	width:680px;
+	display: block;
+	margin: auto;
 }
 .card {
-	height: 200px;
+	height: 230px;
 	width: 150px;
 	border: 1px solid black;
-	background: rgb(255, 255, 0);
+	background: url("../images/PlayingCard.jpg");
+	background-size: cover;
 	border-radius: 10px;
 	float: left;
-	margin: 8%;
+	margin: 5px;
 }
 .card img {
-	width: inherit;
+	height: 100%;
 }
 h1 {
-	color: rgb(2, 132, 130);
+	color: rgb(255, 255, 255);
+	font-size: 3.0em;
+	padding: 20px;
 }
-h2 {
-	color: #ffd700;
+header p {
+	color: #ffd700
+}
+h1, h2, header p {
+	width: 60%;
+	margin: auto;
 }
 .name {
 	color: #ff0000;
 }
 button {
-	background: #ffbf00;
+	background: none;
 	color: #ffffff;
 	display: block;
-	margin: auto;
+	margin: 20px auto;
+	padding: 10px;
+	font-size: 1.0em;
+	margin-top: 40px;
 }
